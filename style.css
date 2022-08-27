@@ -1,0 +1,25 @@
+.main-head {
+    font-family: 'Arima', cursive;
+}
+
+.selected-player {
+    background-color: black;
+    color: white;
+}
+
+.budget-player {
+    background-color: black;
+    border: 1px solid white;
+    height: 50px;
+}
+
+.budget-player-coach {
+    background-color: black;
+    border: 1px solid white;
+    height: 50px;
+    margin-left: 15%;
+}
+
+.footer-p {
+    margin-top: 5%;
+}
