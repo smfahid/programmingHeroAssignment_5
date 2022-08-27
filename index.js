@@ -18,6 +18,6 @@ function totalExpense(){
     let coachExpense = document.getElementById('coachExpense').value;
     console.log(managerExpense,'and..',coachExpense,'and..',totalPlayerExpense);
     let totalExpenses = parseInt(totalPlayerExpense) + parseInt(managerExpense) + parseInt(coachExpense);
-    document.getElementById('totalExpenses').innerHTML = totalExpenses;
+    document.getElementById('totalExpenses').innerHTML = '$'+totalExpenses;
 
 }
